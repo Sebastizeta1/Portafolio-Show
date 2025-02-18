@@ -1,0 +1,105 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fondo {
+    width: 100%;
+    display: block;
+    margin-top: 70px;
+}
+
+.logo {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    color: #6070FF; 
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+nav ul {
+    position: absolute;
+    right: 50px;
+    word-spacing: 20px;
+    top: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #344563;
+    
+}
+.text1 {
+    position: absolute;
+    top: 200px;
+    left: 260px;
+}
+
+.text1 h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #091E42;
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+    line-height: 60px;
+}
+.text2 h2 {
+    color: #344563;
+    font-size: 20px;
+    line-height: 28px;
+    margin-right: 70px;
+    
+}
+.connect {
+    color: #7F8CFF;
+    font-size: 16px;
+    line-height: 24px;
+}
+.social-links {
+    width: 17px;
+    height: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 30px;
+    }
+    
+}
+.contact form {
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.contact {
+    background: #4C6EF5;
+    color: white;
+    padding: 20px;
+}
+
+.contact input, .contact textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
